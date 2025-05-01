@@ -1,5 +1,5 @@
 {
-    "name": "magentron/eloquent-model-generator",
+    "name": "ejklock/eloquent-model-generator",
     "description": "Eloquent Model Generator (forked from krlove/eloquent-model-generator",
     "license": "MIT",
     "autoload": {
@@ -13,8 +13,8 @@
         }
     },
     "replace": {
-		"krlove/eloquent-model-generator": "<=2.0.2"
-	},
+        "krlove/eloquent-model-generator": "<=2.0.2"
+    },
     "require": {
         "php": "^8.0",
         "illuminate/database": "^12.0",
@@ -32,10 +32,10 @@
         "symfony/var-dumper": "^7.2",
         "vimeo/psalm": "~6.4.0"
     },
-	"config": {
+    "config": {
         "optimize-autoloader": true,
         "sort-packages": true
-	},
+    },
     "extra": {
         "laravel": {
             "providers": [
